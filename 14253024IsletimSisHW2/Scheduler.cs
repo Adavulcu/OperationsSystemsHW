@@ -137,13 +137,33 @@ namespace _14253024IsletimSisHW2
 
         public static void GantChart(this ArrayList list)
         {
+            int counter = 0;
+            
             Console.WriteLine("\n\n\t\tGANT CHART\n\n");
-            Console.Write("|");
+            Console.Write("|0|");
             for (int i = 0; i < list.Count; i++)
             {
-                Console.Write(" "+list[i]+" |");
+                
+                if (i>0 && !list[i].Equals(list[i-1]))
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("  (" + "P" + list[i-1] + ")  ");
+                    Console.ResetColor();
+                    Console.Write("|" + counter + "|");
+                }
+                if(i==list.Count-1)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("  (" + "P" + list[i] + ")  ");
+                    Console.ResetColor();
+                    Console.Write("|" + (counter+1) + "|");
+                }
+                counter++;
+
             }
-           
+
+            
+
         }
 
         private static void AddProcessNo(ArrayList list,int no,double times)

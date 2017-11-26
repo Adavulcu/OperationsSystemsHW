@@ -52,21 +52,21 @@ namespace _14253024IsletimSisHW2
             thQua_4 = new Thread(new ThreadStart(RR_QUA_4));
             thQua_8 = new Thread(new ThreadStart(RR_QUA_8));
            
-              thFcfs.Start();
-              thFcfs.Join();      
-              thScf_Pre.Start();
-              thScf_Pre.Join();
-              thScf_Non_Pre.Start();
-              thScf_Non_Pre.Join();
-              thPriorty.Start();
+            thFcfs.Start();
+            thFcfs.Join();
+            thScf_Pre.Start();
+            thScf_Pre.Join();
+            thScf_Non_Pre.Start();
+            thScf_Non_Pre.Join();
+            thPriorty.Start();
             thPriorty.Join();
             thQua_3.Start();
-           thQua_3.Join();
+            thQua_3.Join();
             thQua_4.Start();
             thQua_4.Join();
             thQua_8.Start();
-            
-         
+
+
 
 
 
