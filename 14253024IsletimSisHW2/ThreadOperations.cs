@@ -23,7 +23,7 @@ namespace _14253024IsletimSisHW2
         ArrayList pList;
         ArrayList scheduledList;
         TxtOperations txt = new TxtOperations();
-    
+        Thread main;
         Thread thFcfs;
         Thread thScf_Pre;
         Thread thScf_Non_Pre;
@@ -33,6 +33,12 @@ namespace _14253024IsletimSisHW2
         Thread thQua_8;
 
         Stopwatch time;
+
+      public void Start()
+        {
+            main = new Thread(new ThreadStart(StartThreads));
+            main.Start();
+        }
 
         public void StartThreads()
         {
@@ -59,6 +65,9 @@ namespace _14253024IsletimSisHW2
             thQua_4.Start();
             thQua_4.Join();
             thQua_8.Start();
+            
+         
+
 
 
         }
@@ -78,12 +87,13 @@ namespace _14253024IsletimSisHW2
             string s = String.Format("{0:00}s:{1:00}ms", tp.Seconds, tp.Milliseconds);
             Console.WriteLine("\n\n\tTHREAD ÇALIŞTIRMA SÜRESİ:\t" + s);
             Console.WriteLine("\n\n**********************************************************\n\n");
-
+           
 
         }
 
         public void SCF_PRE()
         {
+            
             time = new Stopwatch();
             time.Start();
           
@@ -99,6 +109,7 @@ namespace _14253024IsletimSisHW2
             string s = String.Format("{0:00}s:{1:00}ms", tp.Seconds, tp.Milliseconds);
             Console.WriteLine("\n\n\tTHREAD ÇALIŞTIRMA SÜRESİ:\t" + s);
             Console.WriteLine("\n\n**********************************************************\n\n");
+           
         }
         public void SCF_NON_PRE()
         {
@@ -136,6 +147,7 @@ namespace _14253024IsletimSisHW2
             string s = String.Format("{0:00}s:{1:00}ms", tp.Seconds, tp.Milliseconds);
             Console.WriteLine("\n\n\tTHREAD ÇALIŞTIRMA SÜRESİ:\t" + s);
             Console.WriteLine("\n\n**********************************************************\n\n");
+            
         }
 
         public void RR_QUA_3()

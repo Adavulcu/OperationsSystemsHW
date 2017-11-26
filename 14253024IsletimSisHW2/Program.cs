@@ -13,7 +13,7 @@ namespace _14253024IsletimSisHW2
         static void Main(string[] args)
         {
             ThreadOperations tho = new ThreadOperations();             
-            tho.StartThreads();
+            tho.Start();
             Console.ReadKey();
         }
     }
