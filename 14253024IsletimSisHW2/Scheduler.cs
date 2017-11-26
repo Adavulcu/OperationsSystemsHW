@@ -282,7 +282,7 @@ namespace _14253024IsletimSisHW2
                             counter++;
                             if (PQ.Count > 1)
                             {
-                                if (counter != 3)
+                                if (QuaCounter != 3)
                                 {
                                     QuaCounter = 0;
                                     if (QuatumIndex >= PQ.Count)
