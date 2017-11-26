@@ -1,0 +1,7 @@
+C:\Users\apo\Documents\Visual Studio 2017\Projects\14253024IsletimSisHW2\14253024IsletimSisHW2\bin\Debug\14253024IsletimSisHW2.exe.config
+C:\Users\apo\Documents\Visual Studio 2017\Projects\14253024IsletimSisHW2\14253024IsletimSisHW2\bin\Debug\14253024IsletimSisHW2.exe
+C:\Users\apo\Documents\Visual Studio 2017\Projects\14253024IsletimSisHW2\14253024IsletimSisHW2\bin\Debug\14253024IsletimSisHW2.pdb
+C:\Users\apo\Documents\Visual Studio 2017\Projects\14253024IsletimSisHW2\14253024IsletimSisHW2\obj\Debug\14253024IsletimSisHW2.csprojResolveAssemblyReference.cache
+C:\Users\apo\Documents\Visual Studio 2017\Projects\14253024IsletimSisHW2\14253024IsletimSisHW2\obj\Debug\14253024IsletimSisHW2.csproj.CoreCompileInputs.cache
+C:\Users\apo\Documents\Visual Studio 2017\Projects\14253024IsletimSisHW2\14253024IsletimSisHW2\obj\Debug\14253024IsletimSisHW2.exe
+C:\Users\apo\Documents\Visual Studio 2017\Projects\14253024IsletimSisHW2\14253024IsletimSisHW2\obj\Debug\14253024IsletimSisHW2.pdb
